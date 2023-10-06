@@ -37,7 +37,7 @@ function App() {
       </div>
 
       <div>
-        <SendEther />
+        <SendEther WEB3 = {web3} Account = {account} />
       </div>
     </div>
   );
